@@ -71,10 +71,4 @@ In the future, **Temporal** will be integrated into the application to handle lo
 - **Ticket Lifecycle Automation:** Temporal will manage the lifecycle of each ticket, automating tasks such as engineer assignment, SLA checks, and escalation.
 - **SLA and Escalation Management:** The system will track whether SLAs are met, automatically escalating tickets when necessary.
 
-This will significantly enhance the system's ability to handle time-based processes and automate repetitive tasks efficiently.
 
----
-
-## Conclusion
-
-This Java-based ticketing system provides a robust foundation for managing support tickets and engineers. With future enhancements such as Temporal for workflow management, the application will become more automated and efficient in handling complex, time-dependent processes.
