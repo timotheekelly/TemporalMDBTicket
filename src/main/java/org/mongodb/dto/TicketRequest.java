@@ -1,30 +1,24 @@
-package org.mongodb.models;
+package org.mongodb.dto;
 
-public class Ticket {
-    private int ticketNumber;
+import org.mongodb.models.PriorityType;
+import org.mongodb.models.SupportEngineerType;
+import org.mongodb.models.TicketStatusType;
+
+public class TicketRequest {
     private int customerId;
     private int responseMinSLA;
     private PriorityType priority;
     private TicketStatusType status;
     private SupportEngineerType assignedTo;
 
-    // Constructor
-    public Ticket(int ticketNumber, int customerId, int responseMinSLA, PriorityType priority, TicketStatusType status, SupportEngineerType assignedTo) {
-        this.ticketNumber = ticketNumber;
+    public TicketRequest() {}
+
+    public TicketRequest(int customerId, int responseMinSLA, PriorityType priority, TicketStatusType status, SupportEngineerType assignedTo) {
         this.customerId = customerId;
         this.responseMinSLA = responseMinSLA;
         this.priority = priority;
         this.status = status;
         this.assignedTo = assignedTo;
-    }
-
-    // Getters and Setters
-    public int getTicketNumber() {
-        return ticketNumber;
-    }
-
-    public void setTicketNumber(int ticketNumber) {
-        this.ticketNumber = ticketNumber;
     }
 
     public int getCustomerId() {
