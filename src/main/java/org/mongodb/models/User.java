@@ -9,8 +9,6 @@ public class User {
     private String lastName;
     private String title;
 
-    // Getters and Setters
-
     public ObjectId getId() {
         return id;
     }

@@ -13,7 +13,6 @@ public class SupportEngineer {
     private int numAssignedTickets;
     private List<Ticket> tickets;
 
-    // Constructor
     public SupportEngineer(int engineerNumber, String firstName, String lastName, boolean active, int numAssignedTickets, List<Ticket> tickets) {
         this.engineerNumber = engineerNumber;
         this.firstName = firstName;
@@ -23,7 +22,6 @@ public class SupportEngineer {
         this.tickets = tickets;
     }
 
-    // Getters and Setters
     public ObjectId getId() {
         return id;
     }

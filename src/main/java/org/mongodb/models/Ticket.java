@@ -8,7 +8,6 @@ public class Ticket {
     private TicketStatusType status;
     private SupportEngineerType assignedTo;
 
-    // Constructor
     public Ticket(int ticketNumber, int customerId, int responseMinSLA, PriorityType priority, TicketStatusType status, SupportEngineerType assignedTo) {
         this.ticketNumber = ticketNumber;
         this.customerId = customerId;
@@ -18,7 +17,6 @@ public class Ticket {
         this.assignedTo = assignedTo;
     }
 
-    // Getters and Setters
     public int getTicketNumber() {
         return ticketNumber;
     }

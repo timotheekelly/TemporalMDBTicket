@@ -8,7 +8,6 @@ public class Customer {
     private double initialBillingPeriodCharge;
     private String id;
 
-    // Constructor
     public Customer(String email, int trialPeriod, int billingPeriod, int maxBillingPeriods, double initialBillingPeriodCharge, String id) {
         this.email = email;
         this.trialPeriod = trialPeriod;
@@ -18,7 +17,6 @@ public class Customer {
         this.id = id;
     }
 
-    // Getters and Setters
     public String getEmail() {
         return email;
     }

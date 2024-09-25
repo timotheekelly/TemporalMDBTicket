@@ -6,7 +6,6 @@ public class TicketDescription {
     private String title;
     private String description;
 
-    // Constructor
     public TicketDescription(int customerId, PriorityType priority, String title, String description) {
         this.customerId = customerId;
         this.priority = priority;
@@ -14,7 +13,6 @@ public class TicketDescription {
         this.description = description;
     }
 
-    // Getters and Setters
     public int getCustomerId() {
         return customerId;
     }
